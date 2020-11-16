@@ -7,8 +7,8 @@ const router = express.Router();
 
 router.get('/', (req, res) => {
     res.json({
-        emojis: 'http://seblaise.me/api/v1/emojis',
-        properties: 'http://seblaise.me/api/v1/properties',
+        emojis: 'seblaise.me/api/v1/emojis',
+        properties: 'seblaise.me/api/v1/properties',
     });
 });
 
